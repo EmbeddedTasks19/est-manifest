@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="2"/>
+
+  <remote name="yocto" fetch="https://git.yoctoproject.org/"/>
+  <remote name="oe" fetch="https://github.com/openembedded"/>
+  <remote name="community" fetch="https://github.com/Freescale"/>
+  <remote name="QT5" fetch="https://github.com/meta-qt5"/>
+  <remote name="QT5-Extra" fetch="https://github.com/schnitzeltony"/>
+  <remote name="boot2qt" fetch="https://github.com/EmbeddedTasks19"/>
+  <remote name="rpi" fetch="https://github.com/agherzan/"/>
+  <remote name="poky" fetch="https://git.yoctoproject.org/"/>
+  
+
+  <project name="meta-yocto" path="sources/meta-yocto" remote="yocto" revision="6cd2fc85bd6a40474b21b83408c0a57bb819649f" upstream="zeus"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="2b5dd1eb81cd08bc065bc76125f2856e9383e98b" upstream="zeus"/>
+  <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="14f1a630a47375432f93c556927b879b51d84c4e" upstream="zeus"/>
+  <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="81d336c6c4a78916b06eb4d2190e39bc23f22336" upstream="zeus"/>
+  <project name="meta-qt5" path="sources/meta-qt5" remote="QT5" revision="91e6e3b1f5aebd17f895caac3dee32a14630da99" upstream="zeus"/>
+  <project name="meta-qt5-extra" path="sources/meta-qt5-extra" remote="QT5-Extra" revision="8b53b092e0f0425f97197a698124191b26d4f280" upstream="zeus"/>
+  <project name="meta-boot2qt" path="sources/meta-boot2qt" remote="boot2qt" revision="8802ae1a9da3792b7bebf99d3b220b09ac8f4663" upstream="zeus"/>
+  <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="rpi" revision="0e05098853eea77032bff9cf81955679edd2f35d" upstream="zeus"/>
+  <project name="poky" path="sources/poky" remote="poky" revision="daf096e295121ea49ebf21f8070e9a6e28f5d46c" upstream="zeus"/>
+
+</manifest>
